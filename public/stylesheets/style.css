@@ -8,7 +8,7 @@ html,body{
    width: 100%;
 }
 :root{
-  --font:"";
+  --font:"Gilroy";
   --primary:"#E3CBB3";
   --secondary:"#A99F9E"
 }
@@ -31,4 +31,14 @@ html,body{
 .main{
   width: 100%;
   background-color: var(--secondary);
+  position: relative;
+}
+.nav-bar{
+  position: absolute;
+  height: 8%;
+  width: 60%;
+}
+.page1{
+  height: 100vh;
+  width: 100%;
 }

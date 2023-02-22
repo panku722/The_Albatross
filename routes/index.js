@@ -9,6 +9,9 @@ router.get('/', function(req, res, next) {
 router.get('/main', function(req, res, next) {
   res.render('main');
 });
+router.get('/cart', function(req, res, next) {
+  res.render('cart');
+});
 
 // router.get('/', function(req, res, next) {
 //   res.render('index');
